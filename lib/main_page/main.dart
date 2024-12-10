@@ -6,6 +6,7 @@ import 'package:another_project_ui/widgets/behavior_report_extended.dart';
 import 'package:another_project_ui/widgets/merit_points.dart';
 import 'package:another_project_ui/widgets/outlined_container.dart';
 import 'package:another_project_ui/widgets/report_title.dart';
+import 'package:another_project_ui/widgets/reusable_checkbox.dart';
 import 'package:another_project_ui/widgets/stacked_merit_points.dart';
 import 'package:another_project_ui/widgets/submit_button.dart';
 import 'package:another_project_ui/widgets/switch.dart';

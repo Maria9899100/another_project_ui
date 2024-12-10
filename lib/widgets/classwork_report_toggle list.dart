@@ -1,3 +1,4 @@
+
 import 'package:another_project_ui/main_page/app_colors.dart';
 import 'package:another_project_ui/widgets/report_actions.dart';
 import 'package:flutter/material.dart';
@@ -5,11 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ClassworkReportToggle extends StatefulWidget {
   const ClassworkReportToggle({super.key, required this.listOfText, required this.onChangeW1, required this.onChangeW3, required this.onChangeW4, required this.onChangeW5});
-final List<String> listOfText;
-final ValueChanged onChangeW1;
-final ValueChanged onChangeW3;
-final ValueChanged onChangeW4;
-final ValueChanged onChangeW5;
+  final List<String> listOfText;
+  final ValueChanged onChangeW1;
+  final ValueChanged onChangeW3;
+  final ValueChanged onChangeW4;
+  final ValueChanged onChangeW5;
 
   @override
   State<ClassworkReportToggle> createState() => _ClassworkReportToggleState();
